@@ -1,5 +1,6 @@
 # ✨ Cursor Roblox
 A tool to help you customize your cursor on roblox. OPENSOURCED!
+<br>
 [![Downloads](https://img.shields.io/github/downloads/pizzaboxer/bloxstrap/latest/total?color=981bfe)](https://placeholder.png)
 ## __⚙__ Installation
 1.Go to your downloads page in file explorer, create a new folder and name it "Setup"

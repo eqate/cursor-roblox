@@ -39,7 +39,7 @@ class CursorUpdater
                 Console.WriteLine($"copied - {cursorName}.");
             }
 
-            // Step 3: Replace MouseLockedCursor.png with cursor.png
+            // replace shiftlock
             string mouseLockedCursorPath = Path.Combine(bloxstrapTexturePath, "MouseLockedCursor.png");
             File.Copy(cursorPath, mouseLockedCursorPath, true);
             Console.WriteLine("replaced shiftlock with cursor");

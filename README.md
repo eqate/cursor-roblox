@@ -21,7 +21,7 @@ Finished!
 
 ## __🐜__ Issues
 
-This may not work sometimes because it isnt updated for the latest bloxstrap version (roblox too) simply just wait for our developers to fix this to the newest.
+This may not work sometimes because it isnt updated for the latest roblox. simply just wait for our developers to fix this to the newest.
 
 > [!WARNING]
 > You must go to downloads and name it Setup, and this only works using bloxstrap (for now) <https://github.com/pizzaboxer/bloxstrap>

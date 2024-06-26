@@ -12,6 +12,7 @@ A tool to help you customize your cursor on roblox. OPENSOURCED!
 4. Simply run the .EXE file called cursorblox.exe (full source on github)
 <br>
 Finished!
+<br>
 ## __🐜__ Issues
 
 This may not work sometimes because it isnt updated for the latest bloxstrap version (roblox too) simply just wait for our developers to fix this to the newest.

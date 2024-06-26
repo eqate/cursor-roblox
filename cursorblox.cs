@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 class CursorUpdater
 {
-    const string Version = "1.02";
+    const string Version = "1.03";
     const string VersionUrl = "https://raw.githubusercontent.com/eqate/cursor-roblox/main/version.txt";
     const string CursorFileName = "cursor.png";
     const string BloxstrapPathTemplate = @"C:\Users\{0}\AppData\Local\Bloxstrap\Versions\version-eb181506c14a4601\content\textures\Cursors\KeyboardMouse";

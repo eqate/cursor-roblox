@@ -12,14 +12,14 @@ class CursorUpdater
     const string BloxstrapPathTemplate = @"C:\Users\{0}\AppData\Local\Bloxstrap\Versions\version-eb181506c14a4601\content\textures\Cursors\KeyboardMouse";
     const string SetupPathTemplate = @"C:\Users\{0}\Downloads\Setup\cursor.png";
     const string BloxstrapTexturePathTemplate = @"C:\Users\{0}\AppData\Local\Bloxstrap\Versions\version-eb181506c14a4601\content\textures";
-    
+
     static async Task Main(string[] args)
     {
         string userName = Environment.UserName;
         string bloxstrapPath = string.Format(BloxstrapPathTemplate, userName);
         string cursorPath = string.Format(SetupPathTemplate, userName);
         string bloxstrapTexturePath = string.Format(BloxstrapTexturePathTemplate, userName);
-        
+
         try
         {
             if (Directory.Exists(bloxstrapPath))
@@ -29,7 +29,7 @@ class CursorUpdater
                 {
                     file.Delete();
                 }
-                Console.WriteLine("Cleared existing files in the KeyboardMouse directory.");
+                Console.WriteLine("cleared kbm directory");
             }
             string[] cursorNames = { "ArrowCursor.png", "ArrowFarCursor.png", "IBeamCursor.png" };
             foreach (string cursorName in cursorNames)

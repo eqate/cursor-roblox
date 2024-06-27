@@ -1,7 +1,7 @@
 # ✨ Cursor Roblox
 A tool to help you customize your cursor on roblox. OPENSOURCED!
 <br>
-[![Downloads](https://img.shields.io/github/downloads/obiged2231095/cursor-roblox/latest/total?color=981bfe)](https://placeholder.png)
+[![Downloads](https://img.shields.io/github/downloads/eqate/cursor-roblox/latest/total?color=981bfe)]([https://github.com/eqate/cursor-roblox/releases])
 ## __⚙__ Installation
 1. Go to your downloads page in file explorer, create a new folder and name it anything.
 

@@ -5,12 +5,11 @@ using System.Threading.Tasks;
 
 class CursorUpdater
 {
-    const string Version = "1.03";
+    const string Version = "1.1";
     const string VersionUrl = "https://raw.githubusercontent.com/eqate/cursor-roblox/main/version.txt";
     const string CursorFileName = "cursor.png";
-    const string BloxstrapPathTemplate = @"C:\Users\{0}\AppData\Local\Bloxstrap\Versions\version-eb181506c14a4601\content\textures\Cursors\KeyboardMouse";
-    const string SetupPathTemplate = @"C:\Users\{0}\Downloads\Setup\cursor.png";
-    const string BloxstrapTexturePathTemplate = @"C:\Users\{0}\AppData\Local\Bloxstrap\Versions\version-eb181506c14a4601\content\textures";
+    const string BloxstrapPathTemplate = @"C:\Users\{0}\AppData\Local\Bloxstrap\Versions\version-1088f3c8e4a44cc7\content\textures\Cursors\KeyboardMouse";
+    const string BloxstrapTexturePathTemplate = @"C:\Users\{0}\AppData\Local\Bloxstrap\Versions\version-1088f3c8e4a44cc7\content\textures";
 
     static async Task Main(string[] args)
     {
@@ -28,14 +27,14 @@ class CursorUpdater
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"An error occurred while checking for updates: {ex.Message}");
+                Console.WriteLine($"err: {ex.Message}");
                 return;
             }
         }
 
         string userName = Environment.UserName;
         string bloxstrapPath = string.Format(BloxstrapPathTemplate, userName);
-        string cursorPath = string.Format(SetupPathTemplate, userName);
+        string cursorPath = Path.Combine(AppContext.BaseDirectory, CursorFileName);
         string bloxstrapTexturePath = string.Format(BloxstrapTexturePathTemplate, userName);
 
         try
